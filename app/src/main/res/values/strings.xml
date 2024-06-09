@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">WolfsCorp</string>
+    <string name="calcular_venta">CALCULAR SALARIO\n</string>
+    <string name="guardar">GUARDAR</string>
+    <string name="sueldo">SUELDO</string>
+    <string name="empresa">Wolf`s Corp</string>
+    <string name="wolfs_corp">WOLF`S CORP</string>
+    <string name="nombre_del_empleado">NOMBRE DEL EMPLEADO</string>
+    <string name="ingrese_el_anio">AÑO</string>
+    <string name="ingrese_pago_por_dia">SUELDO</string>
+    <string name="faltas_en_enero">ENERO</string>
+    <string name="faltas_en_febrero">FEBRERO</string>
+    <string name="faltas_en_marzo">MARZO</string>
+    <string name="faltas_en_abril">ABRIL</string>
+    <string name="faltas_en_mayo">MAYO</string>
+    <string name="faltas_en_junio">JUNIO</string>
+    <string name="faltas_en_julio">JULIO</string>
+    <string name="faltas_en_agosto">AGOSTO</string>
+    <string name="faltas_en_septiembre">SEPTIEMBRE</string>
+    <string name="faltas_en_octubre">OCTUBRE</string>
+    <string name="faltas_en_noviembre">NOVIEMBRE</string>
+    <string name="faltas_en_diciembre">DICIEMBRE</string>
+    <string name="calcular">CALCULAR</string>
+</resources>

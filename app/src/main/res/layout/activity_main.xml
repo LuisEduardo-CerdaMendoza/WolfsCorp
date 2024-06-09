@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/wolfs_corp"
+            android:textSize="40sp"
+            android:textColor="#E0FFFF"
+            android:fontFamily="@font/tiltprism"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/tiltprism"
+                android:text="Ingrese el nombre del empleado"
+                android:textAlignment="center"
+                android:textColor="#00FFFF"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/txNombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/nombre_del_empleado"
+                android:inputType="textPersonName"
+                android:layout_margin="5dp"
+                android:textAlignment="center"
+                android:fontFamily="@font/tiltprism"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/tiltprism"
+                android:text="Ingrese el Año actual"
+                android:textColor="#00FFFF"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/txAno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/ingrese_el_anio"
+                android:inputType="number"
+                android:layout_margin="5dp"
+                android:textAlignment="center"
+                android:fontFamily="@font/tiltprism"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/tiltprism"
+                android:text="Ingrese el precio \n de la prestacion por dia"
+                android:textAlignment="center"
+                android:textColor="#00FFFF"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/txPagoDia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/ingrese_pago_por_dia"
+                android:inputType="numberDecimal"
+                android:layout_margin="5dp"
+                android:textAlignment="center"
+                android:fontFamily="@font/tiltprism"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/tiltprism"
+                android:textAlignment="center"
+                android:text="INGRESE LOS \n DIAS NO TRABAJADOS"
+                android:textColor="#00FFFF"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/txEnero"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/faltas_en_enero"
+                android:inputType="number"
+                android:layout_margin="5dp"
+                android:textAlignment="center"
+                android:fontFamily="@font/tiltprism"/>
+
+            <EditText
+                android:id="@+id/txFebrero"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/faltas_en_febrero"
+                android:inputType="number"
+                android:layout_margin="5dp"
+                android:textAlignment="center"
+                android:fontFamily="@font/tiltprism"/>
+
+            <EditText
+                android:id="@+id/txMarzo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/faltas_en_marzo"
+                android:inputType="number"
+                android:layout_margin="5dp"
+                android:textAlignment="center"
+                android:fontFamily="@font/tiltprism"/>
+
+            <EditText
+                android:id="@+id/txAbril"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/faltas_en_abril"
+                android:inputType="number"
+                android:layout_margin="5dp"
+                android:textAlignment="center"
+                android:fontFamily="@font/tiltprism"/>
+
+            <EditText
+                android:id="@+id/txMayo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/faltas_en_mayo"
+                android:inputType="number"
+                android:layout_margin="5dp"
+                android:textAlignment="center"
+                android:fontFamily="@font/tiltprism"/>
+
+            <EditText
+                android:id="@+id/txJunio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/faltas_en_junio"
+                android:inputType="number"
+                android:layout_margin="5dp"
+                android:textAlignment="center"
+                android:fontFamily="@font/tiltprism"/>
+
+            <EditText
+                android:id="@+id/txJulio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/faltas_en_julio"
+                android:inputType="number"
+                android:layout_margin="5dp"
+                android:textAlignment="center"
+                android:fontFamily="@font/tiltprism"/>
+
+            <EditText
+                android:id="@+id/txAgosto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/faltas_en_agosto"
+                android:inputType="number"
+                android:layout_margin="5dp"
+                android:textAlignment="center"
+                android:fontFamily="@font/tiltprism"/>
+
+            <EditText
+                android:id="@+id/txSeptiembre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/faltas_en_septiembre"
+                android:inputType="number"
+                android:layout_margin="5dp"
+                android:textAlignment="center"
+                android:fontFamily="@font/tiltprism"/>
+
+            <EditText
+                android:id="@+id/txOctubre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/faltas_en_octubre"
+                android:inputType="number"
+                android:layout_margin="5dp"
+                android:textAlignment="center"
+                android:fontFamily="@font/tiltprism"/>
+
+            <EditText
+                android:id="@+id/txNoviembre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/faltas_en_noviembre"
+                android:inputType="number"
+                android:layout_margin="5dp"
+                android:textAlignment="center"
+                android:fontFamily="@font/tiltprism"/>
+
+            <EditText
+                android:id="@+id/txDiciembre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/faltas_en_diciembre"
+                android:inputType="number"
+                android:layout_margin="5dp"
+                android:textAlignment="center"
+                android:fontFamily="@font/tiltprism"/>
+
+            <Button
+                android:id="@+id/btCalcular"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/calcular"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:textAlignment="center"
+                android:fontFamily="@font/tiltprism"/>
+
+            <TextView
+                android:id="@+id/txResultado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:fontFamily="@font/tiltprism"
+                android:text=""/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
